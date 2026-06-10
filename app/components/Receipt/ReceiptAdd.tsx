@@ -2,10 +2,10 @@ import { useState } from "react";
 import Button from "../Button";
 import Input from "../Input";
 import { MaterialType } from "@/types/MaterialType";
-import { Product } from "@/types/Product";
+import { ProductType}from "@/types/ProductType";
 
 export default function ReceiptAdd({ product, material, onUpdate }: { 
-  product: Product[],
+  product: ProductType[],
   material: MaterialType[],
   onUpdate: () => void
 }) {

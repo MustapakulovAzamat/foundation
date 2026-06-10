@@ -1,6 +1,6 @@
 "use client";
 
-import { IngredientType } from "@/types/Ingredient";
+import { IngredientType } from "@/types/IngredientType";
 
 export default function Ingredients({ ingredients }: { ingredients: IngredientType[] }) {
   const grouped = ingredients.reduce((acc, curr) => {

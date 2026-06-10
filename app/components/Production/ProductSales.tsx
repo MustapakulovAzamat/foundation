@@ -3,11 +3,11 @@ import { useEffect, useState } from "react";
 import Title from "../text/Title";
 import Input from "../Input";
 import Button from "../Button";
-import { Product } from "@/types/Product";
+import { ProductType } from "@/types/ProductType";
 
 export default function ProductSales({onUpdate}:{onUpdate:() => void}) {
-  const [products, setProducts] = useState<Product[]>([]);
-  const [selectedProduct, setSelectedProduct] = useState<Product | null>(null);
+  const [products, setProducts] = useState<ProductType[]>([]);
+  const [selectedProduct, setSelectedProduct] = useState<ProductType | null>(null);
   const [quantity, setQuantity] = useState("");
   const [markup, setMarkup] = useState("")
 

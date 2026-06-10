@@ -1,14 +1,14 @@
 "use client"
 
-import { IngredientType } from "@/types/Ingredient"
-import { Product } from "@/types/Product"
+import { IngredientType } from "@/types/IngredientType"
+import { ProductType } from "@/types/ProductType"
 import { useState } from "react"
 import Button from "../Button"
 import Title from "../text/Title"
 
 export default function ReceiptDelete({ingredient, product, onUpdate}: {
   ingredient: IngredientType[],
-  product: Product[],
+  product: ProductType[],
   onUpdate: () => void
 }) {
   const [selectIngredientId, setSelectIngredientId] = useState("")

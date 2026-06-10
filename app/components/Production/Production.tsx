@@ -1,14 +1,14 @@
 "use client"
 import { useEffect, useState } from "react";
 import Title from "../text/Title"
-import { Product } from "@/types/Product";
+import { ProductType } from "@/types/ProductType";
 import Input from "../Input";
 import Button from "../Button";
-import { Ingredient } from "@/types/Ingredient";
+import { IngredientType } from "@/types/IngredientType";
 
 export default function Production({ products, ingredients }: { 
-  products: Product[],
-  ingredients: Ingredient[] 
+  products: ProductType[],
+  ingredients: IngredientType[] 
 }) {
   const [selectedProduct, setSelectedProduct] = useState<string>("");
   const [quantity, setQuantity] = useState<string>("");

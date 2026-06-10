@@ -1,5 +1,5 @@
 "use client"
-import { SaleType } from "@/types/Sales";
+import { SaleType } from "@/types/SalesType";
 import ProductSales from "../components/Production/ProductSales"
 import ProductionSalesHistory from "../components/Production/ProductSalesHistory"
 import { useEffect, useState } from "react";

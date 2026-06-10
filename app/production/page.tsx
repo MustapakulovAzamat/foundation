@@ -1,14 +1,14 @@
 "use client";
 import { useEffect, useState } from "react";
 import Production from "../components/Production/Production";
-import { Product } from "@/types/Product";
+import { ProductType } from "@/types/ProductType";
 import Title from "../components/text/Title";
 import Ingredients from "../components/Ingredients";
 import ProductAdd from "../components/Production/ProductionAdd";
-import { IngredientType } from "@/types/Ingredient";
+import { IngredientType } from "@/types/IngredientType";
 
 export default function ProductionPage() {
-  const [products, setProducts] = useState<Product[]>([]);
+  const [products, setProducts] = useState<ProductType[]>([]);
   const [ingredients, setIngredients] = useState<IngredientType[]>([]);
 
   async function fetchData() {

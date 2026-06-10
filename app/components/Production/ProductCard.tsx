@@ -1,11 +1,11 @@
 "use client"
 import { useEffect, useState } from "react";
 import Title from "../text/Title"
-import { Product } from "@/types/Product";
+import { ProductType } from "@/types/ProductType";
 import Image from "next/image";
 
 export default function ProductCard() {
-  const [products, setProducts] = useState<Product[]>([]);
+  const [products, setProducts] = useState<ProductType[]>([]);
 
   useEffect(() => {
     async function fetchProducts() {

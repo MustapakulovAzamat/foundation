@@ -3,7 +3,7 @@ import { useEffect, useState } from "react";
 import * as XLSX from "xlsx";
 import Button from "../components/Button";
 import Title from "../components/text/Title";
-import { ReportType } from "@/types/Report";
+import { ReportType } from "@/types/ReportType";
 
 export default function ReportPage() {
   const [reportData, setReportData] = useState<ReportType | null>(null);

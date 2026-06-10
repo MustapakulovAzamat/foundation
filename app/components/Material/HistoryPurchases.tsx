@@ -1,5 +1,5 @@
 "use client"
-import { HistoryPurchaseType } from "@/types/History";
+import { HistoryPurchaseType } from "@/types/HistoryPurchaseType";
 import { useEffect, useState } from "react";
 import Title from "../text/Title";
 

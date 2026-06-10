@@ -2,12 +2,12 @@
 import { MaterialType } from "@/types/MaterialType"
 import { useEffect, useState } from "react"
 import ReceiptAdd from "../components/Receipt/ReceiptAdd"
-import { Product } from "@/types/Product"
+import { ProductType } from "@/types/ProductType"
 import ReceiptDelete from "../components/Receipt/ReceiptDelete"
-import { IngredientType } from "@/types/Ingredient"
+import { IngredientType } from "@/types/IngredientType"
 
 export default function ReceiptPage() {
-  const [product, setProduct] = useState<Product[]>([])
+  const [product, setProduct] = useState<ProductType[]>([])
   const [material, setMaterial] = useState<MaterialType[]>([])
   const [ingredient, setIngredient] = useState<IngredientType[]>([])
 

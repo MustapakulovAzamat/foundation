@@ -1,6 +1,6 @@
 "use client";
 import Title from "../text/Title";
-import { SaleType } from "@/types/Sales";
+import { SaleType } from "@/types/SalesType";
 
 export default function ProductionSalesHistory({sales} : {sales: SaleType[]}) {
   return (
