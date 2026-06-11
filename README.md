@@ -88,41 +88,6 @@ Foundation — это веб-приложение для управления о
 
 ---
 
-## Структура проекта
-
-```text
-app/
-├── api/
-│   ├── auth/
-│   ├── budget/
-│   ├── employees/
-│   ├── ingredients/
-│   ├── materials/
-│   ├── production/
-│   ├── productSales/
-│   ├── purchases/
-│   ├── reports/
-│   └── salary/
-│
-├── budget/
-├── login/
-├── material/
-├── production/
-├── productSales/
-├── purchases/
-├── receipt/
-├── report/
-│
-├── actions/
-├── components/
-└── layout.tsx
-
-lib/
-└── db.ts
-```
-
----
-
 ## Установка проекта
 
 ### Клонирование репозитория
